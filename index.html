@@ -458,7 +458,7 @@
 
             <p class="panel__content">1) Access the file <b>whatsappStatus.blade.php</b> and search for your country
               between lines 14 and 229</p>
-            <p class="panel__content">2) add "selected" at the end of the TAG</p> <br>
+            <p class="panel__content">2) add "selected" at the end of the TAG "option"</p> <br>
             Example - Country France: <br />
             <p style="font-size: 12px">
               &ltoption data-countryCode="FR" value="33" <b style="color:red">selected</b> &gt France
@@ -473,11 +473,7 @@
             </header>
 
             <p class="panel__content">
-              1) Access the folder: <b>resources/views/orders/partials/</b></p>
-            <p class="panel__content">
-              2) Open the file: <b>orderstatus.blade.php</b></p>
-            <p class="panel__content">
-              3) Copy the following code:
+              1) Copy the following code:
 
               <!-- The text field -->
               <input type="text" readonly value="@include('orders.partials.whatsappStatus')" id="myInput">
@@ -485,6 +481,10 @@
               <!-- The button used to copy the text -->
               <button onclick="myFunction()">Copy</button>
             </p>
+            <p class="panel__content">
+              2) Access the folder: <b>resources/views/orders/partials/</b></p>
+            <p class="panel__content">
+              3) Open the file: <b>orderstatus.blade.php</b></p>
             <p class="panel__content">
               4) Paste on the <b>last</b> line of the file</p>
 
